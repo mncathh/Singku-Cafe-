@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Singku Cafe | Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+    <nav>
+    <div class="logo">
+  <a href="index.html">
+    <img src="images/icon1.png" alt="Singku Cafe Logo">
+    <span class="logo-text">Singku</span>
+  </a>
+</div>
+
+    <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="feature.html">Features</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+
+<!-- Contact Banner -->
+<section class="contact-hero">
+  <div class="contact-hero-content">
+    <h1>Get in Touch</h1>
+    <p>We’d love to hear your feedback, questions, or suggestions!</p>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>We’d love to hear from you! Choose a section below.</p>
+
+  <!-- Feedback Section -->
+  <form id="feedback-form">
+    <h3>Product Feedback</h3>
+
+    <!-- Star Rating -->
+    <div class="form-group">
+      <label>Rate Our Products</label>
+      <div class="star-rating">
+        <span onclick="setRating(1)">★</span>
+        <span onclick="setRating(2)">★</span>
+        <span onclick="setRating(3)">★</span>
+        <span onclick="setRating(4)">★</span>
+        <span onclick="setRating(5)">★</span>
+      </div>
+      <input type="hidden" id="star-rating" name="star-rating">
+    </div>
+
+    <!-- Feedback Text -->
+    <div class="form-group">
+      <label for="feedback">Your Feedback *</label>
+      <textarea id="feedback" name="feedback" rows="4" required></textarea>
+    </div>
+
+    <button type="submit">Submit Feedback</button>
+    <p id="feedback-message" class="confirmation-message" style="display: none;"></p>
+
+
+
+
+  </form>
+
+  <!-- Concerns Section -->
+  <!-- Concerns Section -->
+  <!-- Concerns Section -->
+<form id="concern-form">
+  <h3>Concerns or Questions</h3>
+
+  <div class="form-group">
+    <label for="name">Name *</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email *</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+  </div>
+
+  <!-- 📱 Contact Number Field -->
+  <div class="form-group">
+    <label for="phone">Contact Number *</label>
+    <input type="tel" id="phone" name="phone" placeholder="e.g. 0994 417 2569">
+  </div>
+
+  <div class="form-group">
+    <label for="message">Message *</label>
+    <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+  </div>
+
+  <button type="submit">Send Message</button>
+  <p id="concern-message" class="confirmation-message" style="display: none;"></p>
+</form>
+
+  
+</section>
+
+
+  <div class="map-container">
+  <h3>Find Us</h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.770583066418!2d120.59131709999997!3d15.134803699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f301e5a199a7%3A0xd86a3c86758a9e01!2sSingku%20Cafe!5e1!3m2!1sen!2sph!4v1757863247870!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+
+  <!-- Footer -->
+<footer>
+  <div class="footer-content">
+    <!-- Opening Hours -->
+    <div class="footer-section">
+      <h3>Business Hours</h3>
+      <p>Mon - Sat: 10am - 10pm</p>
+      <p>Sunday: 10am - 9pm</p>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <p>Email: <a href="mailto:singkucafe@gmail.com">singkucafe@gmail.com</a></p>
+      <p>Phone: 0994 417 2569</p>
+      <p>Address: 5G Bldg, Nepomuceno Street, Brgy. Santo Rosario,, Angeles City, Philippines</p>
+      <div class="socials">
+        <a href="https://www.facebook.com/singku.cafe"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/singku.cafe/?fbclid=IwY2xjawM2K0NleHRuA2FlbQIxMABicmlkETFhMW1pSE1BQTBnODRiaHU0AR7h_6TeqT-Hyn4rFOlrCOiD1T8PHvTmjLjObmujNl2sSKU7U651dTohC2NsCw_aem_0iNwwlS-cYHZ7Qpt2wZp6Q#"><img src="images/instagram.png" alt="Instagram"></a>
+        <a href="mailto:singku.cafe@gmail.com"><img src="images/gmail.png" alt="Email"></a>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Singku Cafe. All rights reserved.</p>
+  </div>
+</footer>
+
+  <!-- Confirmation Modal -->
+  <div id="confirmation-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <p id="modal-message"></p>
+      <button onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+
+  
+
+</body>
+</html>
